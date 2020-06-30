@@ -12,7 +12,9 @@
 
     <h1>Buat Account Baru!</h1>
     <h3>Sign Up Form</h3>
-    <form action="{{ url('/welcome')}}">
+    <form action="{{ url('/welcome')}}" method="POST">
+        @csrf
+
         <label for="fname">First name:</label><br><br>
         <input type="text" id="fname" name="fname" placeholder="Nama depan"><br><br>
 

@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Challange</title>
+    <title>HTML Challange | Laravel</title>
 </head>
 
 <body>
